@@ -1,0 +1,33 @@
+* {
+    font-family: "Instrument Sans", serif;
+    font-style: normal;
+    text-align: justify;
+}
+
+body {
+    padding: 5px 30px 5px 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    font-size: small;
+    padding-block: 5px;
+}
+
+hr {
+    opacity: 50%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+footer {
+    font-size: x-small;
+    text-align: center;
+}
