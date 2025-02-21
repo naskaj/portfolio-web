@@ -15,15 +15,15 @@
     <body>
         <header>
             <nav class="container">
-                <div>Projects</div>
-                <div>About</div>
-                <div>Contact</div>
+                <div class="prjct">Projects</div>
+                <div class="about">About</div>
+                <div class="contact">Contact</div>
             </nav>
             <hr>
         </header>
 
         <main>
-            <section class="home">
+            <section class="secs home">
                 <div class="intro">
                     <h1>Hello there!</h1>
                     <p>I'm Asma Kamilah, a fresh graduate of Computer Engineering
@@ -35,41 +35,56 @@
                 </div>
             </section>
 
-            <section class="projects">
-                <div>
-                    <div class="project one">
-                        <img src="assets\project1.jpeg">
-                        <h3>Simple Temperature Conversion</h3>
-                        <p>A mini project in order to complete RevoU Software Engineering
-                            Fundamental Course. This website is bidirectional Celcius to Fahrenheit
-                            conversion with detailed explanation of the calculation. Check out the
-                            website <a href="https://revou-fundamental-course.github.io/03-feb-25-naskaj/">here</a>.
-                        </p>
+            <section id="projects">
+                <h3 class="secs title">Front-end Development</h3>
+                <div class="secs project">
+                    <img src="assets\prjct.png">
+                    <h3>Simple Temperature Conversion</h3>
+                    <p>A mini project in order to complete RevoU Software Engineering
+                        Fundamental Course. This website is bidirectional Celcius to Fahrenheit
+                        conversion with detailed explanation of the calculation. Check out the
+                        website <a href="https://revou-fundamental-course.github.io/03-feb-25-naskaj/">here</a>.
+                    </p>
+                    <div class="skill">
+                        <button>HTML</button>
+                        <button>CSS</button>
+                        <button>JavaScript</button>
                     </div>
-                    <div class="project two">
-                        <img src="">
-                        <h3>Application of Ghost Module and SimAM in Guide Following for
-                            Smart Wheelchair based on YOLOv8N
-                        </h3>
-                        <p>This project focuses on developing a lightweight and efficient guide
-                            following system for smart wheelchair using a modified version of
-                            YOLOv8n, enhanced with Ghost Module and Simple Parameter-Free Attention
-                            Module. This system is designed to assist individuals with mobility
-                            challenges by allowing wheelchair to detect and follow a guide in real-time.
-                        </p>
+                </div>
+                <h3 class="secs title">Machine Learning</h3>
+                <div class="secs project">
+                    <h3>Application of Ghost Module and SimAM in Guide Following for
+                        Smart Wheelchair based on YOLOv8N
+                    </h3>
+                    <p>This project focuses on developing a lightweight and efficient guide
+                        following system for smart wheelchair using a modified version of
+                        YOLOv8n, enhanced with Ghost Module and Simple Parameter-Free Attention
+                        Module. This system is designed to assist individuals with mobility
+                        challenges by allowing wheelchair to detect and follow a guide in real-time.
+                    </p>
+                    <div class="skill">
+                        <button>Python</button>
+                        <button>Deep Learning</button>
+                        <button>Computer Vision</button>
                     </div>
                 </div>
 
-                <div class="project three">
-                    <img src="">
+                <div class="secs project">
                     <h3>Gas Monitoring System in Chicken Coop using LoRa Module</h3>
                     <p>This project focuses on developing a real-time gas monitoring system
                         for chicken farms using LoRa (Long Range) technology and Arduino Uno.
                     </p>
+                    <div class="skill">
+                        <button>Arduino Programming</button>
+                        <button>IoT</button>
+                    </div>
                 </div>
             </section>
 
-            <section class="about">
+            <section class="secs" id="about">
+                <div>
+                    <img src="assets/me.JPG" width="200" height="200">
+                </div>
                 <div>
                     <h3>A brief about me..</h3>
                     <p>
@@ -82,27 +97,24 @@
                         I am committed to improve my knowledge and skills to create technology
                         solutions that satisfy users.
                     </p>
-                </div>
-            </section>
-
-            <section class="contact">
-                <div>
+                    <br>
                     <p>I'm open to any opportunities to learn and grow,
                         find and connect with me below!
                     </p>
                 </div>
-                <div class="logo">
-                    <a href="https://www.linkedin.com/in/asmaknj"><img src="https://img.icons8.com/linkedin"></a>
-                    <a href="https://www.github.com/naskaj"><img src="https://img.icons8.com/github"></a>
-                </div>
-                <div class="github">
-                </div>
+            </section>
+
+            <section class="secs" id="contact">
+                <a href="https://www.linkedin.com/in/asmaknj"><img src="https://img.icons8.com/linkedin"></a>
+                <a href="https://www.github.com/naskaj"><img src="https://img.icons8.com/github"></a>
             </section>
         </main>
 
         <footer>
-            <p>Made by naskaj. Icons by <a href="https://icons8.com/">Icons8</a>.</p>
-            <p>Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8 Ouch!</a></p>
+            <p>Copyright &copy; naskaj. 2025</p>
+            <p>Icons by <a href="https://icons8.com/">Icons8</a>. Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8 Ouch!</a></p>
         </footer>
+
+        <script src="js\script.js"></script>
     </body>
 </html>
