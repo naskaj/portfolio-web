@@ -1,7 +1,7 @@
 let project = document.querySelector(".prjct");
 let about = document.querySelector(".about");
 let contact = document.querySelector(".contact");
-let fadeIn = document.querySelectorAll(".secs");
+// let fadeIn = document.querySelectorAll(".secs");
 
 // window.addEventListener("scroll", function () {
 //     let navbar = document.querySelector(".container");
@@ -28,7 +28,7 @@ window.addEventListener("scroll", function() {
 
     fadeIn.forEach(fadeIn => {
         let topElement = fadeIn.getBoundingClientRect().top;
-        if (topElement < windowHeight * 0.8) {
+        if (topElement < windowHeight * 0.9) {
             fadeIn.classList.add("show");
         }
     })
