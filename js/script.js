@@ -1,7 +1,7 @@
 let project = document.querySelector(".prjct");
 let about = document.querySelector(".about");
 let contact = document.querySelector(".contact");
-// let fadeIn = document.querySelectorAll(".secs");
+let fadeIn = document.querySelectorAll(".secs");
 
 // window.addEventListener("scroll", function () {
 //     let navbar = document.querySelector(".container");
